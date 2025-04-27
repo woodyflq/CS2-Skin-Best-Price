@@ -1,7 +1,7 @@
 
 # CS2 Skin Best Price Tracker
 
-Projeto para coletar e comparar preços de skins de jogos de múltiplos sites, como **Neshastore** e **CS Money**. O objetivo é centralizar as informações de preço e mostrar a melhor opção para o usuário. O programa utiliza **BeautifulSoup** e **Requests** para fazer scraping das páginas.
+Projeto em python para coletar e comparar preços de skins de CS2 de múltiplos sites, como **Neshastore** e **CS Money**. O objetivo é reunir os preços e mostrar a melhor opção para o usuário. O programa utiliza **BeautifulSoup** e **Requests** para fazer scraping das páginas.
 
 ---
 
