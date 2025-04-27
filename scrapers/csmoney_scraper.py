@@ -47,4 +47,3 @@ def coletar_skins_csmoney():
         print(f"Nome: {skin['name']}, Preço: {skin['price']}, Imagem: {skin['image']}")
 
     return skins_data
-coletar_skins_csmoney()

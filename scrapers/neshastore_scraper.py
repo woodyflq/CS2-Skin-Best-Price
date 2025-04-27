@@ -2,21 +2,15 @@ from bs4 import BeautifulSoup
 import requests
 
 def coletar_skins_neshastore():
-    # URL do site a ser feito scraping
     url = "https://neshastore.com"
-
-    # Requisição da página
     response = requests.get(url)
-
-    # Analisa o conteúdo HTML
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Encontre todos os cartões de item
+
     items = soup.find_all('div', class_='card')
 
     skins = []
 
-    # Para cada item encontrado, colete os dados relevantes
     for item in items:
         # Nome da skin
         name = item.find('span', class_='mb-0 d-inline-block text-muted text-truncate undefined')
